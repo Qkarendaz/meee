@@ -39,7 +39,7 @@ $msg = "<!DOCTYPE html>
                   <p>
                     Click on the button below to confirm that $email is your valid email!<br><br><br>
                     <center>
-                      <a href='http://tutme.ml/register/verify.php?vkey='.$vkey.''>
+                      <a href='http://tutme.ml/register/verify.php?vkey=$vkey'>
                         <button>Confirm Email</button>
                       </a>
                     </center><br><br><br>
