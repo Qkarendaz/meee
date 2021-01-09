@@ -1,6 +1,6 @@
 <?php
 
-$msg = '<!DOCTYPE html>
+$msg = "<!DOCTYPE html>
 
         <html>
           <head>
@@ -31,15 +31,15 @@ $msg = '<!DOCTYPE html>
           <head>
           <body>
             <center>
-              <div class="container">
-                <img src="https://www.pngfind.com/pngs/m/2-23180_instagram-1-logo-png-transparent-instagram-name-logo.png" width="15%">
+              <div class='container'>
+                <img src='https://www.pngfind.com/pngs/m/2-23180_instagram-1-logo-png-transparent-instagram-name-logo.png' width='15%'>
                 <div>
-                  <p><strong>Hi '.$firstname.' '.$lastname.',</strong><br>Welcome to Expovids!</p><br>
-                  <div style="border:0.5px solid lightgrey;padding:0px;width:100%;"></div><br>
+                  <p><strong>Hi $firstname $lastname,</strong><br>Welcome to Expovids!</p><br>
+                  <div style='border:0.5px solid lightgrey;padding:0px;width:100%;'></div><br>
                   <p>
-                    Click on the button below to confirm that '.$email.' is your valid email!<br><br><br>
+                    Click on the button below to confirm that $email is your valid email!<br><br><br>
                     <center>
-                      <a href="http://tutme.ml/register/verify.php?vkey='.$vkey.'">
+                      <a href='http://tutme.ml/register/verify.php?vkey='.$vkey.''>
                         <button>Confirm Email</button>
                       </a>
                     </center><br><br><br>
@@ -49,7 +49,7 @@ $msg = '<!DOCTYPE html>
                     Team Expovids.
                   </p>
                 </div>
-                <img src="https://www.pngfind.com/pngs/m/2-23180_instagram-1-logo-png-transparent-instagram-name-logo.png" width="15%">
+                <img src='https://www.pngfind.com/pngs/m/2-23180_instagram-1-logo-png-transparent-instagram-name-logo.png' width=15%'>
               </div>
             </center>
           </body>
