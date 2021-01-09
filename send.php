@@ -81,8 +81,8 @@ try {
                                 
     $mail->Host = 'smtp.gmail.com'; // SMTP host as gmail 
     $mail->SMTPAuth = true;  // enable smtp authentication                             
-    $mail->Username = 'qkarendaz4real@gmail.com';  // sender email             
-    $mail->Password = '09075928834'; // sender email  password                          
+    $mail->Username = 'xoxoxoxo';  // sender email             
+    $mail->Password = 'xoxoxo'; // sender email  password                          
     $mail->SMTPSecure = 'tls';  // for encrypted connection                           
     $mail->Port = 587;   // port for SMTP     465
     $mail->SMTPOptions = array(
